@@ -1,0 +1,163 @@
+{
+    "__collections__": {
+        "users": {
+            "00a7k4yCz5XhNopQsSTuhWbYZiZ2": {
+                "__collections__": {
+                    "privileges": {
+                        "share": {
+                            "telnet": true,
+                            "vanity": "delilah",
+                            "customDomain": "test.example.com",
+                            "__collections__": {}
+                        }
+                    },
+                    "settings": {
+                        "user": {
+                            "wordReplacements": [
+                                {
+                                    "from": "foo",
+                                    "to": "bar"
+                                },
+                                {
+                                    "from": "baz",
+                                    "to": "bat"
+                                }
+                            ],
+                            "controls": {
+                                "layout": {
+                                    "larger": false
+                                },
+                                "volumeMeter": {
+                                    "show": true,
+                                    "sensitivity": "low"
+                                }
+                            },
+                            "alwaysAutostartOnLoad": true,
+                            "locale": {
+                                "userDefault": "en-CA",
+                                "from": "en-US"
+                            },
+                            "afterNoAudio": {
+                                "seconds": 2,
+                                "action": "lineBreak5"
+                            },
+                            "stabilizedThresholdMs": 0,
+                            "roomLeaderToken": null,
+                            "appearance": {
+                                "shadow": {
+                                    "color": "#000000",
+                                    "blurRadius": "0",
+                                    "offsetX": "0.05",
+                                    "offsetY": "0.05",
+                                    "opacity": "100"
+                                },
+                                "background": {
+                                    "color": "#000000",
+                                    "opacity": "100"
+                                },
+                                "text": {
+                                    "textSize": "2.5",
+                                    "textColorInterim": "#ffffff",
+                                    "letterSpacing": "0.1",
+                                    "fontVariant": "regular",
+                                    "textColor": "#ffffff",
+                                    "fontFamily": "Cousine",
+                                    "lineHeight": "1.6",
+                                    "alignment": {
+                                        "padding": "0.25",
+                                        "vertical": "full",
+                                        "horizontal": "full"
+                                    },
+                                    "textTransform": "uppercase"
+                                }
+                            },
+                            "channels": [
+                                {
+                                    "type": "obs",
+                                    "id": "a9fb76ce-135e-40a0-21b4-4b2e5b692feb",
+                                    "parameters": {
+                                        "password": "12345",
+                                        "port": "8080",
+                                        "host": "localhost"
+                                    },
+                                    "on": true
+                                },
+                                {
+                                    "id": "f0ece498-e411-40d0-b397-50020ac08ea6",
+                                    "error": null,
+                                    "type": "zoom",
+                                    "parameters": {
+                                        "zoomApiToken": "https://wmcc.zoom.us/closedcaption?id=foobar",
+                                        "frequentUpdates": false
+                                    }
+                                },
+                                {
+                                    "type": "webhook",
+                                    "id": "ead4dadb-65d7-43c8-ace3-fbd75fe062a7",
+                                    "parameters": {
+                                        "method": "post",
+                                        "url": ""
+                                    },
+                                    "on": false
+                                },
+                                {
+                                    "type": "youtube",
+                                    "error": null,
+                                    "id": "aade064a-1c5f-46ea-9f29-e9435d5dc77e",
+                                    "parameters": {
+                                        "url": "http://upload.youtube.com/closedcaption?cid=foobar"
+                                    },
+                                    "on": true
+                                },
+                                {
+                                    "type": "vmix",
+                                    "error": null,
+                                    "id": "2e4bf69b-9373-4dc8-b36a-2007f77bc90a",
+                                    "parameters": {
+                                        "silentlyUseLocalhostInsteadOfGivenHost": true,
+                                        "captionElementGuid": "faae064a-1c5f-46ea-9f29-e9435d5dc77e",
+                                        "vmixAddress": "http://192.168.1.1:8088/API"
+                                    },
+                                    "on": true
+                                },
+                                {
+                                    "type": "fab",
+                                    "id": "0f3d5337c-3daa-4674-aaab-2aaf1a6ea2be",
+                                    "error": "Cannot connect to FAB Subtitler. Make sure the port number is correct and try again. Error: Error: Network Error",
+                                    "parameters": {
+                                        "port": "443"
+                                    },
+                                    "on": false
+                                }
+                            ],
+                            "censor": {
+                                "replaceWith": "nothing",
+                                "on": false
+                            },
+                            "donationDate": null,
+                            "share": {
+                                "expires": true,
+                                "ownerKey": null,
+                                "vanity": "",
+                                "url": null,
+                                "roomId": null,
+                                "urlType": "random",
+                                "expireDate": null,
+                                "on": false
+                            },
+                            "exp": [],
+                            "roomMembershipId": null,
+                            "chromelessWindow": {
+                                "top": 0,
+                                "left": 0,
+                                "width": 0,
+                                "height": 0
+                            },
+                            "__collections__": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
