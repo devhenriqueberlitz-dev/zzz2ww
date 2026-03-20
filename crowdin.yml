@@ -1,0 +1,4 @@
+files:
+  - source: /app/assets/lang-csv/en-US.csv
+    translation: /app/assets/lang-csv/%locale%.csv
+    scheme: 'identifier,context,source_phrase,translation'
